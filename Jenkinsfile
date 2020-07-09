@@ -10,7 +10,7 @@ pipeline {
             }
     }
     environment {
-      ORG               = 'activiti'
+      ORG               = 'gaddiel'
       APP_NAME          = 'ttc-connectors-dummytwitter'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
